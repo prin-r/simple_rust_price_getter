@@ -1,0 +1,18 @@
+[package]
+name = "test_async"
+version = "0.1.0"
+authors = ["prin-r <q@bandprotocol.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+futures = "0.3"
+hyper = "0.13.7"
+hyper-rustls = "0.21.0"
+serde = { version = "1", features = ["serde_derive"] }
+serde_json = "1"
+bytes = "0.5.6"
+tokio = "0.2.21"
+base64 = "0.12.3"
+obi = "0.0.1"
